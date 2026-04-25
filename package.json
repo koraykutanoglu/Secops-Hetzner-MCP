@@ -1,0 +1,28 @@
+{
+  "name": "SecopsHetznerMCP",
+  "version": "0.1.0",
+  "description": "MCP server for Hetzner Cloud — create/delete servers and run SSH commands",
+  "keywords": ["hetzner", "hcloud", "mcp", "server"],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "SecopsHetznerMCP": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "node-fetch": "^3.3.2",
+    "ssh2": "^1.16.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/ssh2": "^1.15.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
