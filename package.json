@@ -1,12 +1,12 @@
 {
-  "name": "SecopsHetznerMCP",
+  "name": "secops-hetzner-mcp",
   "version": "0.1.0",
   "description": "MCP server for Hetzner Cloud — create/delete servers and run SSH commands",
   "keywords": ["hetzner", "hcloud", "mcp", "server"],
   "license": "MIT",
   "type": "module",
   "bin": {
-    "SecopsHetznerMCP": "build/index.js"
+    "secops-hetzner-mcp": "build/index.js"
   },
   "scripts": {
     "build": "tsc",

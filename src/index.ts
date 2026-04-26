@@ -493,7 +493,7 @@ async function handleSshExecute(
 // ---------------------------------------------------------------------------
 
 const server = new Server(
-  { name: 'SecopsHetznerMCP', version: '0.1.0' },
+  { name: 'secops-hetzner-mcp', version: '0.1.0' },
   { capabilities: { tools: {} } }
 )
 
